@@ -1,0 +1,113 @@
+2022-03-04 17:21:24,315 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x107fc4040>>
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - receive <reset> event <%s>
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2022-03-04 17:21:24,316 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2022-03-04 17:21:24,317 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2022-03-04 17:21:24,317 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2022-03-04 17:21:24,317 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2022-03-04 17:21:24,317 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2022-03-04 17:21:24,317 - Wechaty - INFO - starting puppet ...
+2022-03-04 17:21:24,317 - PuppetService - INFO - init puppet ...
+2022-03-04 17:21:24,317 - PuppetService - INFO - fetching endpoint from chatie-server: https://api.chatie.io/v0/hosties/puppet_paimon_72a5c28b-8ddf-4900-a42e-25518aa3cd76
+2022-03-04 17:21:25,708 - PuppetService - DEBUG - endpoint from chatie-server : <120.55.60.194:7777>
+2022-03-04 17:21:25,749 - PuppetService - INFO - starting the puppet ...
+2022-03-04 17:21:25,899 - PuppetService - INFO - puppet has started ...
+2022-03-04 17:21:25,899 - PuppetService - INFO - listening the event from the puppet ...
+2022-03-04 17:21:26,935 - PuppetService - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'status': 2}>
+2022-03-04 17:21:26,935 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', data=None)>
+2022-03-04 17:21:26,952 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24
+2022-03-04 17:21:26,952 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'ScanStatus.Waiting', 'None']> <{}>
+2022-03-04 17:21:26,952 - Wechaty - ERROR - internal error <>
+2022-03-04 17:21:32,153 - PuppetService - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'status': 2}>
+2022-03-04 17:21:32,153 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', data=None)>
+2022-03-04 17:21:32,169 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24
+2022-03-04 17:21:32,169 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'ScanStatus.Waiting', 'None']> <{}>
+2022-03-04 17:21:32,169 - Wechaty - ERROR - internal error <>
+2022-03-04 17:21:36,943 - PuppetService - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'status': 2}>
+2022-03-04 17:21:36,944 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', data=None)>
+2022-03-04 17:21:36,958 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24
+2022-03-04 17:21:36,959 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'ScanStatus.Waiting', 'None']> <{}>
+2022-03-04 17:21:36,959 - Wechaty - ERROR - internal error <>
+2022-03-04 17:21:41,972 - PuppetService - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'status': 2}>
+2022-03-04 17:21:41,973 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', data=None)>
+2022-03-04 17:21:41,988 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24
+2022-03-04 17:21:41,989 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/48hsvgf26rvgxsVSPk24', 'ScanStatus.Waiting', 'None']> <{}>
+2022-03-04 17:21:41,989 - Wechaty - ERROR - internal error <>
+2022-03-04 17:21:49,258 - PuppetService - DEBUG - receive login info <{'contactId': 'wxid_ytgtw0ktxh4a11'}>
+2022-03-04 17:21:49,258 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 17:21:49,259 - PuppetService - DEBUG - receive ready info <{'data': 'ready'}>
+2022-03-04 17:21:49,259 - wechaty.plugin - INFO - start the plugins ...
+2022-03-04 17:21:49,259 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2022-03-04 17:21:49,260 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2022-03-04 17:21:49,260 - Wechaty - ERROR - internal error <WechatyPluginError('local port<5000> is in use, can"t start plugin server. So please use the another valid port', None, None)>
+2022-03-04 17:21:49,305 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 17:21:49,976 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 17:21:49,976 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 17:21:49,977 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 17:21:52,126 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee44041795'}>
+2022-03-04 17:21:52,126 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee44041796'}>
+2022-03-04 17:21:52,126 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee44041795', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,127 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee44041795> is not ready>
+2022-03-04 17:21:52,128 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee44041796', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,128 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee44041796> is not ready>
+2022-03-04 17:21:52,165 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee44041798'}>
+2022-03-04 17:21:52,165 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee44041799'}>
+2022-03-04 17:21:52,165 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee4404179a'}>
+2022-03-04 17:21:52,166 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee4404179b'}>
+2022-03-04 17:21:52,166 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee4404179c'}>
+2022-03-04 17:21:52,166 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee4404179d'}>
+2022-03-04 17:21:52,166 - PuppetService - DEBUG - receive message info <{'messageId': '0501502851ae1dd8ee4404179e'}>
+2022-03-04 17:21:52,167 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee44041798', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,167 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee44041798> is not ready>
+2022-03-04 17:21:52,167 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee44041799', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,167 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee44041799> is not ready>
+2022-03-04 17:21:52,167 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee4404179a', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,167 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee4404179a> is not ready>
+2022-03-04 17:21:52,167 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee4404179b', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,168 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee4404179b> is not ready>
+2022-03-04 17:21:52,168 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee4404179c', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,168 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee4404179c> is not ready>
+2022-03-04 17:21:52,168 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee4404179d', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,168 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee4404179d> is not ready>
+2022-03-04 17:21:52,168 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502851ae1dd8ee4404179e', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 17:21:52,168 - Message - DEBUG - Message ready <Message <0501502851ae1dd8ee4404179e> is not ready>
+2022-03-04 17:21:52,232 - Contact - INFO - load contact <Contact <wxid_g7nylb51mgvz22> <齐晓瑞>>
+2022-03-04 17:21:52,608 - Contact - INFO - load contact <Contact <wxid_4oj1tfu48nl911> <李世东-AI院>>
+2022-03-04 17:21:52,666 - Contact - INFO - load contact <Contact <zhangxiaohan6939> <张笑涵-BI部>>
+2022-03-04 17:21:52,717 - Contact - INFO - load contact <Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 17:21:52,771 - Contact - INFO - load contact <Contact <wxid_e3ef3cgqin0a22> <爱看书的小呆>>
+2022-03-04 17:21:52,771 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <wxid_g7nylb51mgvz22> <齐晓瑞>@👥 Room <19656041643@chatroom - 小呆测试>]	你好呀，我是你的高级伴读书童小呆，
+希望接下来的日子里能相互分享读书心得，解答读书中遇到的问题。欢迎以后多多来撩我哦~>
+2022-03-04 17:21:52,771 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <wxid_g7nylb51mgvz22> <齐晓瑞>@👥 Room <19656041643@chatroom - 小呆测试>]\t你好呀，我是你的高级伴读书童小呆，\n希望接下来的日子里能相互分享读书心得，解答读书中遇到的问题。欢迎以后多多来撩我哦~']> <{}>
+2022-03-04 17:21:52,821 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 17:21:52,821 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 17:21:52,879 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <wxid_g7nylb51mgvz22> <齐晓瑞>@👥 Room <19656041643@chatroom - 小呆测试>]>
+2022-03-04 17:21:52,880 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <wxid_g7nylb51mgvz22> <齐晓瑞>@👥 Room <19656041643@chatroom - 小呆测试>]']> <{}>
+2022-03-04 17:21:52,932 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <wxid_g7nylb51mgvz22> <齐晓瑞>@👥 Room <19656041643@chatroom - 小呆测试>]	大家好，我是爱读书的小呆，
+很高兴能够和大家一起参加这次读书会，在以后的三周内我将陪伴大家一起读书一起成长。
+
+一个人读书难免会有无聊的时候>
+2022-03-04 17:21:52,932 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <wxid_g7nylb51mgvz22> <齐晓瑞>@👥 Room <19656041643@chatroom - 小呆测试>]\t大家好，我是爱读书的小呆，\n很高兴能够和大家一起参加这次读书会，在以后的三周内我将陪伴大家一起读书一起成长。\n\n一个人读书难免会有无聊的时候']> <{}>
+2022-03-04 17:21:52,984 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <wxid_e3ef3cgqin0a22> <爱看书的小呆>@👥 Room <19656041643@chatroom - 小呆测试>]	我叫爱读书的小呆, 你可否愿意把我介绍给你认识?>
+2022-03-04 17:21:52,984 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <wxid_e3ef3cgqin0a22> <爱看书的小呆>@👥 Room <19656041643@chatroom - 小呆测试>]\t我叫爱读书的小呆, 你可否愿意把我介绍给你认识?']> <{}>
+2022-03-04 17:21:53,045 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 17:21:53,045 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 17:21:53,110 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 17:21:53,111 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 17:21:53,164 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>@👥 Room <19656041643@chatroom - 小呆测试>]>
+2022-03-04 17:21:53,164 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>@👥 Room <19656041643@chatroom - 小呆测试>]']> <{}>
+2022-03-04 17:21:53,285 - Contact - INFO - load contact <Contact <weixin> <微信团队>>
+2022-03-04 17:21:53,285 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <weixin> <微信团队>>
+2022-03-04 17:21:53,285 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <weixin> <微信团队>']> <{}>
+2022-03-04 17:21:53,763 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 17:21:55,094 - PuppetService - DEBUG - receive logout info <{'contactId': 'wxid_ytgtw0ktxh4a11', 'data': 'logout called'}>
+2022-03-04 17:21:55,094 - Wechaty - INFO - receive <logout> event <EventLogoutPayload(contact_id='wxid_ytgtw0ktxh4a11', data='logout called')>
+2022-03-04 17:21:55,094 - Wechaty - DEBUG - emit() event <['Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>

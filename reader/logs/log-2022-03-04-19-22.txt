@@ -1,0 +1,364 @@
+2022-03-04 19:22:12,781 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x104f7b2e0>>
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - receive <reset> event <%s>
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2022-03-04 19:22:12,781 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2022-03-04 19:22:12,782 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2022-03-04 19:22:12,782 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2022-03-04 19:22:12,782 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2022-03-04 19:22:12,782 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2022-03-04 19:22:12,782 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2022-03-04 19:22:12,782 - Wechaty - INFO - starting puppet ...
+2022-03-04 19:22:12,782 - PuppetService - INFO - init puppet ...
+2022-03-04 19:22:12,782 - PuppetService - INFO - fetching endpoint from chatie-server: https://api.chatie.io/v0/hosties/puppet_paimon_72a5c28b-8ddf-4900-a42e-25518aa3cd76
+2022-03-04 19:22:14,217 - PuppetService - DEBUG - endpoint from chatie-server : <120.55.60.194:7777>
+2022-03-04 19:22:14,251 - PuppetService - INFO - starting the puppet ...
+2022-03-04 19:22:14,400 - PuppetService - INFO - puppet has started ...
+2022-03-04 19:22:14,400 - PuppetService - INFO - listening the event from the puppet ...
+2022-03-04 19:22:14,605 - PuppetService - DEBUG - receive login info <{'contactId': 'wxid_ytgtw0ktxh4a11'}>
+2022-03-04 19:22:14,606 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:14,606 - PuppetService - DEBUG - receive ready info <{'data': 'ready'}>
+2022-03-04 19:22:14,606 - wechaty.plugin - INFO - start the plugins ...
+2022-03-04 19:22:14,606 - wechaty.plugin - INFO - init 关键字入群插件-plugin ...
+2022-03-04 19:22:14,606 - Wechaty - INFO - on() listen event <room-join> with <<function RoomInviterPlugin.init_plugin.<locals>.on_room_join at 0x105073820>>
+2022-03-04 19:22:14,607 - Wechaty - DEBUG - emit() event <['room-join', '<function RoomInviterPlugin.init_plugin.<locals>.on_room_join at 0x105073820>']> <{}>
+2022-03-04 19:22:14,607 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2022-03-04 19:22:14,608 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2022-03-04 19:22:14,608 - Wechaty - ERROR - internal error <WechatyPluginError('local port<5000> is in use, can"t start plugin server. So please use the another valid port', None, None)>
+2022-03-04 19:22:14,691 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:16,771 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:18,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:20,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:22,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:24,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:26,705 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:28,855 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee44041903'}>
+2022-03-04 19:22:28,855 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee44041903', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:22:28,855 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee44041903> is not ready>
+2022-03-04 19:22:28,966 - Contact - INFO - load contact <Contact <zhangxiaohan6939> <张笑涵-BI部>>
+2022-03-04 19:22:29,189 - Contact - INFO - load contact <Contact <wxid_g7nylb51mgvz22> <齐晓瑞>>
+2022-03-04 19:22:29,239 - Contact - INFO - load contact <Contact <wxid_4oj1tfu48nl911> <李世东-AI院>>
+2022-03-04 19:22:29,290 - Contact - INFO - load contact <Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 19:22:29,340 - Contact - INFO - load contact <Contact <wxid_e3ef3cgqin0a22> <爱看书的小呆>>
+2022-03-04 19:22:29,341 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <zhangxiaohan6939> <张笑涵-BI部>@👥 Room <19656041643@chatroom - 小呆测试>]	@林攀 >
+2022-03-04 19:22:29,341 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <zhangxiaohan6939> <张笑涵-BI部>@👥 Room <19656041643@chatroom - 小呆测试>]\t@林攀\u2005']> <{}>
+2022-03-04 19:22:29,391 - wechaty.plugin - INFO - emit 关键字入群插件-plugin ...
+2022-03-04 19:22:30,801 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:32,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:34,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:36,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:38,692 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:40,733 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:42,781 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:44,727 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:46,775 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:48,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:50,769 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:52,715 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:54,760 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:56,830 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:22:58,756 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:00,804 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:02,750 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:04,798 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:06,743 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:08,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:10,740 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:12,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:14,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:16,779 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:18,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:20,919 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:23,026 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee44041906'}>
+2022-03-04 19:23:23,027 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee44041905'}>
+2022-03-04 19:23:23,027 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee44041906', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:23:23,027 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee44041906> is not ready>
+2022-03-04 19:23:23,028 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee44041905', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:23:23,028 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee44041905> is not ready>
+2022-03-04 19:23:23,077 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 19:23:23,077 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 19:23:23,078 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'alias'>
+2022-03-04 19:23:23,126 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>@👥 Room <19656041643@chatroom - 小呆测试>]>
+2022-03-04 19:23:23,127 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>@👥 Room <19656041643@chatroom - 小呆测试>]']> <{}>
+2022-03-04 19:23:23,177 - wechaty.plugin - INFO - emit 关键字入群插件-plugin ...
+2022-03-04 19:23:24,799 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee44041908'}>
+2022-03-04 19:23:24,800 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee44041908', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:23:24,800 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee44041908> is not ready>
+2022-03-04 19:23:24,801 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee44041907'}>
+2022-03-04 19:23:24,801 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee44041907', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:23:24,801 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee44041907> is not ready>
+2022-03-04 19:23:25,119 - Contact - INFO - load contact <Contact <filehelper> <文件传输助手>>
+2022-03-04 19:23:25,119 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 19:23:25,119 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 19:23:25,120 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'alias'>
+2022-03-04 19:23:25,168 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>@👥 Room <19656041643@chatroom - 小呆测试>]>
+2022-03-04 19:23:25,169 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>@👥 Room <19656041643@chatroom - 小呆测试>]']> <{}>
+2022-03-04 19:23:25,219 - wechaty.plugin - INFO - emit 关键字入群插件-plugin ...
+2022-03-04 19:23:26,771 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:28,760 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:30,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:32,753 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:34,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:36,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:38,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:40,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:42,789 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:44,735 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:46,783 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:48,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:50,712 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:52,723 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:54,772 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:56,716 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:23:58,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:00,709 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:02,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:04,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:06,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:08,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:10,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:12,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:14,693 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:16,787 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:18,733 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:20,780 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:22,726 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:24,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:26,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:28,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:30,714 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:32,761 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:34,708 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:36,756 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:38,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:40,694 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:42,798 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:44,743 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:46,792 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:48,839 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee44041909'}>
+2022-03-04 19:24:48,839 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee44041909', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:24:48,839 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee44041909> is not ready>
+2022-03-04 19:24:48,890 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <zhangxiaohan6939> <张笑涵-BI部>	 if await msg.mention_self():
+                print("mention me")>
+2022-03-04 19:24:48,890 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <zhangxiaohan6939> <张笑涵-BI部>\t\xa0if await msg.mention_self():\n\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 print("mention me")']> <{}>
+2022-03-04 19:24:48,890 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'alias'>
+2022-03-04 19:24:50,771 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:52,731 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:54,779 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:56,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:24:58,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:00,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:02,766 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:04,712 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:06,759 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:08,705 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:10,753 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:12,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:14,746 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:16,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:18,742 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:20,790 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:22,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:24,783 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:26,728 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:28,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:30,708 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:32,769 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:34,716 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:36,763 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:38,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:40,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:42,703 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:44,751 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:46,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:48,745 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:50,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:52,695 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:54,787 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:56,732 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:25:58,735 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:00,769 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:02,865 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee4404190a'}>
+2022-03-04 19:26:02,866 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee4404190a', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:26:02,866 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee4404190a> is not ready>
+2022-03-04 19:26:02,917 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <zhangxiaohan6939> <张笑涵-BI部>	msg.room().alias(self.my_contact)>
+2022-03-04 19:26:02,918 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <zhangxiaohan6939> <张笑涵-BI部>\tmsg.room().alias(self.my_contact)']> <{}>
+2022-03-04 19:26:02,918 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'alias'>
+2022-03-04 19:26:04,966 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:06,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:08,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:10,762 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:12,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:14,755 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:16,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:18,701 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:20,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:22,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:24,790 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:26,786 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:28,784 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:30,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:32,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:34,723 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:36,771 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:38,717 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:40,765 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:42,712 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:44,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:46,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:48,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:50,801 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:52,746 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:54,795 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:56,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:26:58,696 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:00,734 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:02,782 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:04,727 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:06,766 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:08,722 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:10,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:12,715 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:14,866 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee4404190c'}>
+2022-03-04 19:27:14,866 - PuppetService - DEBUG - receive message info <{'messageId': '0501502853ae1dd8ee4404190b'}>
+2022-03-04 19:27:14,866 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee4404190c', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:27:14,866 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee4404190c> is not ready>
+2022-03-04 19:27:14,867 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='0501502853ae1dd8ee4404190b', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-03-04 19:27:14,867 - Message - DEBUG - Message ready <Message <0501502853ae1dd8ee4404190b> is not ready>
+2022-03-04 19:27:14,917 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 19:27:14,917 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 19:27:14,918 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'alias'>
+2022-03-04 19:27:14,967 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>>
+2022-03-04 19:27:14,968 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_ytgtw0ktxh4a11> <林攀>']> <{}>
+2022-03-04 19:27:14,968 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'alias'>
+2022-03-04 19:27:16,811 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:18,860 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:20,805 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:22,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:24,755 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:26,746 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:28,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:30,738 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:32,890 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:34,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:36,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:38,725 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:40,773 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:42,719 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:44,767 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:46,712 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:48,761 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:50,809 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:52,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:54,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:56,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:27:58,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:00,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:02,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:04,697 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:06,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:08,730 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:10,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:12,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:14,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:16,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:18,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:20,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:22,758 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:24,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:26,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:28,698 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:30,746 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:32,794 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:34,740 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:36,701 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:38,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:40,782 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:42,729 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:44,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:46,721 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:48,769 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:50,716 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:52,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:54,708 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:56,757 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:28:58,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:00,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:02,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:04,744 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:06,792 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:08,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:10,778 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:12,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:14,765 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:16,861 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:18,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:20,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:22,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:24,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:26,720 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:28,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:30,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:32,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:34,748 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:36,797 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:38,699 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:40,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:42,735 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:44,783 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:46,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:48,701 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:50,701 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:52,701 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:54,716 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:56,764 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:29:58,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:00,758 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:02,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:04,751 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:06,800 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:08,746 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:10,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:12,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:14,707 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:16,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:18,700 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:20,726 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:22,774 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:24,720 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:26,701 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:28,702 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:30,768 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:32,819 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:34,712 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:36,714 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:38,766 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:40,718 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:42,763 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:44,812 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:46,759 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:48,725 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:50,725 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:52,726 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:54,727 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:56,800 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:30:58,729 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:00,729 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:02,740 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:04,788 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:06,838 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:08,782 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:10,831 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:12,777 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:14,732 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:16,732 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:18,732 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:20,765 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:22,813 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
+2022-03-04 19:31:24,759 - PuppetService - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2022-03-11T11:36:42.000+08:00'}>
