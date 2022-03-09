@@ -6,6 +6,7 @@ authors = ["hiro <pan.lin@aminer.cn>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pydub = "^0.25.1"
 
 [tool.poetry.dev-dependencies]
 

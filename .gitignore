@@ -152,3 +152,6 @@ TEST*.json
 README.md
 .notes_images
 db.sqlite3
+
+logs
+chathistory.db
